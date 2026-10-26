@@ -78,6 +78,31 @@ body {
   background-color: #6c8cff;
 }
 
+/* ================= КНОПКА LOAD MORE ================= */
+
+.load-more-btn {
+  min-width: 125px;
+  height: 40px;
+  padding: 8px 16px;
+  margin-bottom: 32px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4e75ff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.load-more-btn:hover,
+.load-more-btn:focus {
+  background-color: #6c8cff;
+}
+
 /* ================= ЛОАДЕР (css-loader) ================= */
 
 .loader-container {
@@ -117,7 +142,7 @@ body {
 }
 
 .is-hidden {
-  display: none;
+  display: none !important;
 }
 
 /* ================= ГАЛЕРЕЯ ================= */
@@ -129,6 +154,7 @@ body {
   gap: 24px;
   width: 100%;
   max-width: 1128px;
+  margin-bottom: 32px;
   list-style: none;
 }
 
